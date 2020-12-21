@@ -1,7 +1,7 @@
 $(document).ready(function(){
 window.prikaz_podataka_o_korisniku_na_pocetnoj();
 window.prikaz_svih_faktura_na_pocetnoj_strani();
-window.izmena_podataka_o_korisniku_na_pocetnoj();  //ukoliko se promene podaci o adminu zovemo ovu funkciju
+window.izmena_podataka_o_korisniku_na_pocetnoj(); 
 window.dodavanje_novog_klijenta();
 //window.pregled_svih_klijenta();
 uredjivanje_odredjenog_klijenta();
@@ -36,7 +36,7 @@ $(document).ajaxStart(function(){
 
   });
   $(document).ajaxComplete(function(){   //kad se ajax zavrsi on ga gasi i prikazuje ono sto ajax treba da prikaze
-    $("#wait").css("display", "none");   //ovo je za ucitavanje prilikom slanja emaila treba ga namestiti za sve na body
+    $("#wait").css("display", "none");   
   });
 
 
