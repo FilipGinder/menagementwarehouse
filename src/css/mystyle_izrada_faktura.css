@@ -1,0 +1,144 @@
+body{
+  overflow-x: hidden;
+}
+.inputi_leva_strana{
+
+	display: block;
+	width: 100%;
+	text-align: center;
+  text-align-last: center;
+}
+.col-lg-3{
+	text-align: center;
+	border-right: 1px solid black;
+/*	height:100vh;*/
+    padding-top: 0.5%;
+    /*overflow-y: scroll;*/
+    background-color: #ececec;
+    font-size: 11.5px;
+    padding-left: 27px;
+}
+
+#valuta_fakture_na_izradi_fakture{
+	text-align: center;
+    text-align-last: center;
+    -moz-text-align-last: center;
+}
+#nacin_placanja_fakture_na_izradi_fakture{
+	text-align: center;
+    text-align-last: center;
+    -moz-text-align-last: center;
+}
+.col-lg-9{
+	/*background-color: #ececec;*/
+}
+#prvi_red_levo{
+	text-align: center;
+	background-color: #ececec;
+	border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black; 
+
+}
+#prvi_red_levo > h4{
+  font-size: 55px;
+}
+#prvi_red_desno{
+  background-color: #ececec;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.modal-dialog {
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modal.fade .modal-dialog {
+  transform: translate(0, -100%);
+}
+
+.modal.in .modal-dialog {
+  transform: translate(0, 0);
+}
+
+#moja_tabela{
+  width: 98%;
+}
+#polje_za_unos_podataka_rb{
+  width: 100%;
+  border-radius: 5px;
+}
+
+#polje_za_unos_podataka_jedinica_mere{
+  width: 100%;
+  border-radius: 5px;
+}
+#polje_za_unos_podataka_kolicina{
+  width: 100%;
+  border-radius: 5px;
+}
+#polje_za_unos_podataka_cena_sa_pdv{
+  width: 100%;
+  border-radius: 5px;
+}
+#trenutno_stanje_magacina_odredjenog_proizvoda{
+  width: 100%;
+  border-radius: 5px;
+}
+#polje_za_unos_podataka_vrednost_sa_pdv{
+  width: 100%;
+  border-radius: 5px;
+}
+
+#polje_za_unos_podataka_vrednost_sa_pdv{
+  width: 100%;
+}
+
+#red_za_punjenje_fakture{
+  background-color:darkgray;
+  display: none;
+}
+#red_za_punjenje_fakture_desno{
+  background-color: #ececec;
+  padding-right: 30px;
+}
+
+#moja_tabela_za_ispis_redova{
+  background-color:lightgray;
+  visibility: hidden;
+  width: 100%;
+}
+#moja_tabela_za_ispis_redova > tbody > tr > td{
+  font-size: 12px;
+}
+#prvi_red_centar{
+  
+  background-color: #ececec;
+  text-align: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
+#prvi_red_centar > h5{
+  font-size: 14px;
+}
+#prvi_red_centar > span{
+  font-size: 14px;
+}
+#obrisi_fakturu_u_izradi{
+  float: right;
+  display: none;
+}
+/*#obrisi_sve_redove_fakture{
+  float: right;
+  display: none;
+}*/
+#sacuvaj_fakturu{
+  float: right;
+  visibility: hidden;
+  margin-left: 5px;
+}

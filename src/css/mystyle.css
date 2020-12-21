@@ -1,0 +1,226 @@
+body{
+  background-color: #ececec !important;
+}
+#wait{
+  position: fixed;
+  top: 40%;
+  left: 47%;
+  z-index: 1;
+}
+#pregled_magacina_modal{
+  display: none;
+  overflow-x: hidden;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+#pregled_svih_klijenata{
+  display: none;
+  overflow-x: hidden;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+#pregled_svih_faktura_jednog_klijenta{
+  display: none;
+  overflow-x: hidden;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+#glavni_div{
+	background-color: #ececec !important;	
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.dugmici_na_pocetnoj{
+	margin-top: 4px;
+	margin-bottom: 4px;
+	display: block;
+	width: 80%;
+	text-align: center;
+}
+.prikaz_admin_podataka_na_pocetnoj{
+    text-align: center;	
+}
+.inputi_u_modalima{
+	width: 100%;
+	text-align: center;
+}
+
+#logo{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.close{
+    float:left;
+}
+
+    .modal-dialog-full-width {
+        width: 100% !important;
+        height: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        max-width:none !important;
+
+    }
+
+    .modal-content-full-width  {
+        height: auto !important;
+        min-height: 100% !important;
+        border-radius: 0 !important;
+        background-color: #ececec !important; 
+    }
+
+    .modal-header-full-width  {
+        border-bottom: 1px solid #9ea2a2 !important;
+    }
+
+    .modal-footer-full-width  {
+        border-top: 1px solid #9ea2a2 !important;
+    }
+
+
+#prvi_red{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+ #prikaz_klijenata_magacina{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #ukupna_vrednosti_stovarista{
+   width: 50%;
+
+  }
+
+  #ukupna_kubikaza_stovarista{
+   width: 50%;
+   border-right: 1px solid black; 
+  }
+
+  #drugi_red{
+    border-top: 1px solid black;
+    padding-top: 60px;
+    padding-bottom: 150px;
+  }
+  #select_odabir_godine_ili_sve_ukupno_za_prikaz_vrednosti{
+    width: 100%;
+  }
+  #select_odabir_klijenti_ili_sve_ukupno_za_prikaz_vrednosti{
+    width: 100%;
+  }
+
+  #naslov_drugi_red{
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  #treci_red{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid black;
+}
+#pregled_svih_klijenata{
+  padding-right: 0px !important;
+
+}
+#pregled_magacina_modal{
+  padding-right: 0px !important;
+}
+table {font-size: 13px !important;}
+
+#prikaz_sto_faktura{
+  text-align: center;
+}
+#pregled_svih_faktura_jednog_klijenta_prvi_red{
+  margin-bottom: 20px;
+}
+#odabir_godine_za_prikaz_ukupne_vrednosti_faktura{
+  border:1px solid black;
+  padding-top: 20px;
+}
+#ukupne_vrednosti_faktura_placenih{
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+h6{
+font-size: 22px;
+}
+#ukupne_vrednosti_faktura_ne_placenih{
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#ukupne_vrednosti_faktura{
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+select { 
+ text-align-last:center; 
+}
+
+
+.progress {
+   
+     height: 100px;
+    /*height: 0rem;*/
+   display: block;
+   margin: auto;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   
+}
+.circle-progress-svg {
+   
+    /*width: 200px;*/ 
+   
+}
+/*
+.circle-progress-circle {
+   
+    stroke-width: 6px;
+    
+    stroke: hsl(39, 100%, 85%);
+  
+}
+
+.circle-progress-value {
+   
+    stroke-width: 6px;
+    stroke: hsl(39, 100%, 50%);
+
+  
+}
+
+.circle-progress-text {
+   
+    fill: hsl(39, 100%, 50%);
+
+}
+
+.circle-progress-text-value {
+   
+    fill: red;
+
+  
+}
+
+.circle-progress-text-max {
+   
+    fill: red;
+
+  
+}*/

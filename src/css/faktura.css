@@ -1,0 +1,549 @@
+#faktura{
+	display: none;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#div_fiksiran_na_vrh_za_menjanje_statusa_fakture{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 38px;
+	background-color: blue;
+}
+.ispis_podataka_divovi{
+	font-size: 19px;
+}
+.pomocni_ispis_podataka_divovi{
+   font-size: 12px;
+}
+#faktura_prva_sekcija_prvi_red{
+	border:2px solid black;
+	border-radius: 10px;
+	padding-bottom: 15px;
+}
+#faktura_druga_sekcija{
+	margin-top: 15px;
+	padding-top: 10px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	padding: 0px;
+}
+
+#div_korisnikovi_podaci{
+	width: 50%;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+#div_prva_linija_levo{
+	width: 100%;
+	border-bottom: 1px solid black;
+	display: block;
+	text-align: center;
+}
+#div_druga_linija_levo{
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: block;
+    text-align: center;
+    }
+#div_druga_linija_levo_pomocni{
+	width: 100%;
+	text-align: center;
+	max-height: 20px; 
+}
+#div_treca_linija_levo{
+	width: 47%;
+	border-bottom: 1px solid black;
+	display: inline-block;
+	text-align: center;
+	margin-right: 10px;
+}
+#div_treca_linija_levo_pomocni{
+	width: 47%;
+	display: inline-block;
+	text-align: center;
+	margin-right: 10px;
+	max-height: 20px; 
+}
+
+#div_cetvrta_linija_levo{
+	width: 47%;
+	border-bottom: 1px solid black;
+	display: inline-block;
+	text-align: center;
+	margin-left: 10px;
+	float: right;
+}
+#div_cetvrta_linija_levo_pomocni{
+	width: 47%;
+	display: inline-block;
+	text-align: center;
+	margin-right: 10px;
+	float: right;
+	max-height: 20px; 
+}
+#div_peta_linija_levo{
+   width: 100%;
+   border-bottom: 1px solid black;	
+   display: block;
+   text-align: center;
+}
+#div_peta_linija_levo_pomocni{
+   width: 100%;	
+   display: block;
+   text-align: center;
+   max-height: 20px; 
+}
+
+#div_sesta_linija_levo{
+   width: 100%;
+   border-bottom: 1px solid black;	
+   display: block;
+   text-align: center;
+}
+#div_sesta_linija_levo_pomocni{
+   width: 100%;	
+   display: block;
+   text-align: center;
+   max-height: 20px;                                              
+
+}
+
+#div_sedma_linija_levo{
+   width: 100%;
+   border-bottom: 1px solid black;	
+   display: block;
+   text-align: center;
+}
+#div_sedma_linija_levo_pomocni{
+   width: 100%;	
+   display: block;
+   text-align: center;
+   max-height: 20px; 
+}
+
+
+
+
+#div_klijentovi_podaci{
+	width: 50%;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	border-left:2px solid black;
+	border-bottom:2px solid black;
+	border-radius: 10px;
+}
+
+table#prikaz_svih_artikala_u_fakturi{
+    border-collapse: separate !important;
+    border-spacing: 0;
+	margin-bottom: 0px !important;
+    border:1px solid black;
+
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+table#prikaz_svih_artikala_u_fakturi th:first-child {
+    -moz-border-radius: 10px 0 0 0;
+    -webkit-border-radius: 10px 0 0 0;
+    border-radius: 10px 0 0 0;
+}
+table#prikaz_svih_artikala_u_fakturi th:last-child {
+    -moz-border-radius: 0 10px 0 0;
+    -webkit-border-radius: 0 10px 0 0;
+    border-radius: 0 10px 0 0;
+}
+
+
+table#prikaz_svih_artikala_u_fakturi tr:last-child td:first-child {
+    -moz-border-radius: 0 0 0 10px;
+    -webkit-border-radius: 0 0 0 10px;
+    border-radius: 0 0 0 10px;
+}
+
+#prikaz_svih_artikala_u_fakturi > thead > tr > td{
+	border:2px solid black;
+}
+#prikaz_svih_artikala_u_fakturi > thead > tr > th{
+	border:2px solid black;
+}
+
+#prikaz_svih_artikala_u_fakturi > tbody > tr > td{
+	border:2px solid black;
+	font-size: 13px;
+	text-align: center;
+
+}
+
+
+#div_faktura_treca_sekcija_prikaz_ukupne_vrednosti_fakture{
+   border-right: 3px solid black;
+   border-bottom: 3px solid black;
+   border-left: 3px solid black;
+
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;  
+}
+#ispis_vrednosti_fakture_div{
+	border-left: 2px solid black;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.ukupni_iznosi_fakture{
+	text-align: right;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	font-size: 15px;
+}
+.ukupni_iznosi_fakture_ispis{
+	text-align: center;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+#ukupni_iznosi_fakture_ispis_prvi_div{
+    border-bottom: 2px solid black;
+}
+#ukupni_iznosi_fakture_ispis_drugi_div{
+	border-bottom: 2px solid black;
+}
+
+#ukupni_iznosi_fakture_ispis_treci_div{
+	border-bottom: 2px solid black;
+}
+
+#faktura_treca_sekcija_prvi_redic, #faktura_treca_sekcija_drugi_redic ,#faktura_treca_sekcija_treci_redic, #faktura_treca_sekcija_cetvrti_redic{
+	padding-right: 20px;
+	height: 28px;
+}
+
+
+
+.tekst{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.linija{
+	border-bottom: 2px solid black;
+	min-height: 40px;
+	text-align: center;
+}
+.linija_racun{
+	border-bottom: 2px solid black;
+	min-height: 40px;
+	text-align: center;
+}
+
+#nacin_placanja{
+	position: absolute;
+    bottom: 0;
+    left: 45%;
+}
+#valuta_fakture{
+	position: absolute;
+    bottom: 0;
+    left: 45%;
+}
+#cifra_u_slovima{
+  position: absolute;
+    bottom: 0;
+    left: 15%;
+}
+
+#mesto_izdavanja_fakture{
+	position: absolute;
+    bottom: 0;
+    left: 20%;
+}
+
+
+
+#tekst_za_uplatu{
+	font-size: 25px;
+	position: relative;
+	bottom: -12px;
+}
+#za_uplatu_fakture{
+	font-size: 25px;
+}
+
+#div_zatvori_prikaz_fakture{
+	text-align: center;
+}
+
+#linija_racun_napravio{
+    border-bottom: 2px solid black;
+    width: 100%;
+    min-height: 90px;
+}
+#mesto_pecata_div{
+	text-align: center;
+}
+
+#mesto_pecata{
+	position: absolute;
+    bottom: 50px;
+}
+#div_mesto_potpisa_kreatora{
+    border-bottom: 2px solid black;	
+    min-height: 90px;
+}
+#div_mesto_potpisa_kreatora_pomocni{
+   width: 100%;	
+   display: block;
+   text-align: center;
+}
+
+#div_mesto_potpisa_kupca{
+    border-bottom: 2px solid black;	
+    min-height: 90px;
+}
+#div_mesto_potpisa_kupca_pomocni{
+   width: 100%;	
+   display: block;
+   text-align: center;
+}
+
+#div_izaberi_status_fakture{
+	text-align: center;
+	color: white;
+	font-size: 19px;
+}
+#ispis_statusa_fakture{
+  text-align: center;
+  font-size: 19px;
+}
+#predracun_u_racun{
+  display: none;
+  float: right;
+}
+#racun_u_predracun{
+  float: right;
+}
+#prikaz_da_je_predracun{
+	display: none;
+	margin-top: 10px;
+	font-size: 45px;
+}
+#div_stampaj_fakture{
+	text-align: center;
+}
+
+
+
+
+
+#aktura_prva_sekcija_drugi_red{
+   width: 100%;
+   background-color: red;
+}
+
+#faktura_prva_sekcija_drugi_red_leva_strana{
+	width: 58%;
+	float: left;
+}
+#faktura_druga_sekcija_leva_strana_prvi_redic {
+	padding-left: 20px;
+	padding-right: 180px;
+	width: 100%;
+	min-height: 50px;
+	display: block;
+}
+
+#div_broj_fakture_tekst{
+	width: 50%;
+	float: left;
+	min-height: 50px;
+}
+#broj_fakture_tekst{
+	font-size: 35px;
+}
+#div_redni_broj_fakture_tekst{
+width: 50%;
+float: left;
+}
+
+
+#div_redni_br_fakture{
+	border-bottom: 2px solid black;
+    font-size: 35px;
+    text-align: center;
+}
+#faktura_druga_sekcija_leva_strana_medju_redic{
+	height: 50px;
+}
+#faktura_druga_sekcija_leva_strana_drugi_redic{
+	height: 50px;
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 60px;
+	
+}
+#na_osnovu_tekst{
+	height: 50px;
+    width: 16%;
+    float: left;
+    position: relative;   
+}
+#na_osnovu_tekst_sam_tekst{
+    position: absolute;
+	bottom: 0;
+	left: 0;
+}
+#na_osnovu_tekst_linija{
+    width: 84%;
+    border-bottom: 2px solid black;
+	height: 50px;
+	text-align: center;
+	float: left;
+}
+
+
+
+
+#faktura_druga_sekcija_prvi_redic{
+	padding-right: 20px;
+	height: 50px;
+	width: 100%;
+}
+#div_mesto_izdavanja_fakture{
+	height: 50px;
+	width: 11%;
+	float: left;
+	position: relative;
+}
+#mesto_izdavanja_fakture_sam_tekst{
+	height: 50px;
+	width: 89%;
+	float: left;
+	border-bottom: 2px solid black;
+	position: relative;
+}
+
+#faktura_prva_sekcija_drugi_red_desna_strana{
+	width: 42%;
+	float: left;
+}
+
+
+#faktura_druga_sekcija_drugi_redic{
+    padding-right: 20px;
+	height: 50px;
+	width: 100%;
+
+}
+#tekst_datum_izdavanja_racuna{
+   height: 50px;
+   width: 43%;
+   position: relative;
+   float: left;
+}
+#tekst_datum_izdavanja_racuna_linija{
+  height: 50px;
+  width: 57%;
+  border-bottom: 2px solid black;
+  float: left;
+  position: relative;
+}
+#datum_izdavanja_fakture{
+	position: absolute;
+    bottom: 0;
+    left: 20%;
+}
+
+
+#faktura_druga_sekcija_treci_redic{
+  padding-right: 20px;
+  height: 50px;
+  width: 100%;
+}
+#div_datum_prometa{
+   height: 50px;
+   width: 55%;
+   position: relative;
+   float: left;
+}
+#datum_izdavanja_fakture_linija{
+  height: 50px;
+  width: 45%;
+  border-bottom: 2px solid black;
+  float: left;
+  position: relative;
+}
+#datum_izdavanja_fakture2{
+	position: absolute;
+    bottom: 0;
+    left: 20%;
+}
+
+#promeni_status_text{
+  visibility: hidden;
+}
+#select_placeno-nije_placeno{
+  visibility: hidden;
+}
+
+
+
+
+
+@media print {
+      .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6,
+      .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+           float: left;               
+      }
+
+      .col-sm-12 {
+           width: 100%;
+      }
+
+      .col-sm-11 {
+           width: 91.66666666666666%;
+      }
+
+      .col-sm-10 {
+           width: 83.33333333333334%;
+      }
+
+      .col-sm-9 {
+            width: 75%;
+      }
+
+      .col-sm-8 {
+            width: 66.66666666666666%;
+      }
+
+       .col-sm-7 {
+            width: 58.333333333333336%;
+       }
+
+       .col-sm-6 {
+            width: 50%;
+       }
+
+       .col-sm-5 {
+            width: 41.66666666666667%;
+       }
+
+       .col-sm-4 {
+            width: 33.33333333333333%;
+       }
+
+       .col-sm-3 {
+            width: 25%;
+       }
+
+       .col-sm-2 {
+              width: 16.666666666666664%;
+       }
+
+       .col-sm-1 {
+              width: 8.333333333333332%;
+        }            
+}
